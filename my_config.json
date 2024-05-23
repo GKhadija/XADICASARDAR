@@ -1,0 +1,13 @@
+{
+    "name": "Sardar Aliyev",
+    "version": "1.0.0",
+    "server": {
+        "port": "2024",
+        "port2": "2025"
+    },
+    "openInBrowser": true,
+    "dist": {
+        "fonts": "NewsARoman",
+        "img": "icon.png"
+    }
+}

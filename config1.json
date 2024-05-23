@@ -1,0 +1,14 @@
+{
+    "name": "My_app",
+    "version": "1.0.0",
+    "author": "??",
+    "server": {
+      "port": "??",
+      "port2": "??"
+    },
+    "openInBrowser": false,
+      "dist": {
+        "fonts": "???",
+        "img": "icon.png"
+      }
+    }

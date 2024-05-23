@@ -1,0 +1,31 @@
+libraries:
+  central_library: &central_library
+    library: "Mərkəzi Şəhər Kitabxanası"
+  university_library: &university_library
+    library: "Universitetin Kitabxanası"
+
+books:
+  - name: "War and Peace"
+    author: "Leo Tolstoy"
+    pages: 1225
+    <<: *central_library
+
+  - name: "In Search of Lost Time"
+    author: "Marcel Proust"
+    pages: 4215
+    <<: *university_library
+
+  - name: "Don Quixote"
+    author: "Miguel de Cervantes"
+    pages: 863
+    <<: *central_library
+
+  - name: "Ulysses"
+    author: "James Joyce"
+    pages: 730
+    <<: *university_library
+
+  - name: "The Brothers Karamazov"
+    author: "Fyodor Dostoevsky"
+    pages: 1013
+    <<: *central_library
